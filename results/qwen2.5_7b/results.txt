@@ -1,0 +1,42 @@
+Model: qwen2.5:7b
+Processed: 1317/1317 cases
+Total execution time: 1.2 hours
+Average time per case: 3.3 seconds
+Correctly classified: 1289/1317
+
+Confusion Matrix:
+[[1109   11]
+ [  17  180]]
+
+Accuracy: 0.9787
+Precision: 0.9424
+Recall: 0.9137
+F1-score: 0.9278
+AUC-ROC: 0.9519
+AUC-PR: 0.9345
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99      1120
+           1       0.94      0.91      0.93       197
+
+    accuracy                           0.98      1317
+   macro avg       0.96      0.95      0.96      1317
+weighted avg       0.98      0.98      0.98      1317
+
+
+Evaluation Complete
+
+Model Comparison:
+        Model  Accuracy  Precision    Recall  ...   Total_Time  Average_Time_Per_Case                               All_Prediction_Times                   Timestamp
+0  qwen2.5:7b   0.97874   0.942408  0.913706  ...  4302.185068               3.261065  [25.052298545837402, 2.736175775527954, 2.3126...  2025-06-03T21:52:33.396025
+
+[1 rows x 17 columns]
+
+Vulnerability Detection Performance:
+
+qwen2.5:7b:
+Vulnerability Detection Rate: 0.9137
+False Positive Rate: 0.0576
+False Negative Rate: 0.0863

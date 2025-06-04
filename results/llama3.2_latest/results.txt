@@ -1,0 +1,42 @@
+Model: llama3.2:latest
+Processed: 1317/1317 cases
+Total execution time: 45.2 minutes
+Average time per case: 2.1 seconds
+Correctly classified: 1150/1317
+
+Confusion Matrix:
+[[1120    0]
+ [ 167   30]]
+
+Accuracy: 0.8732
+Precision: 1.0000
+Recall: 0.1523
+F1-score: 0.2643
+AUC-ROC: 0.5761
+AUC-PR: 0.6395
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      1.00      0.93      1120
+           1       1.00      0.15      0.26       197
+
+    accuracy                           0.87      1317
+   macro avg       0.94      0.58      0.60      1317
+weighted avg       0.89      0.87      0.83      1317
+
+
+Evaluation Complete
+
+Model Comparison:
+             Model  Accuracy  Precision    Recall  ...   Total_Time  Average_Time_Per_Case                               All_Prediction_Times                   Timestamp
+0  llama3.2:latest  0.873197        1.0  0.152284  ...  2714.035553               2.055259  [4.50003457069397, 1.6634972095489502, 2.09042...  2025-06-03T23:38:19.321826
+
+[1 rows x 17 columns]
+
+Vulnerability Detection Performance:
+
+llama3.2:latest:
+Vulnerability Detection Rate: 0.1523
+False Positive Rate: 0.0000
+False Negative Rate: 0.8477

@@ -1,0 +1,100 @@
+Vulnerability detection rate: 177/191 (92.7%)[0m
+
+[36mProgress: 1280/1317 cases processed
+Time elapsed: 7.5 hours
+Estimated remaining: 12.9 minutes
+Average time per case: 21.0 seconds
+Correct predictions: 1153/1280 (90.1%)
+Vulnerability detection rate: 178/192 (92.7%)[0m
+
+[36mProgress: 1285/1317 cases processed
+Time elapsed: 7.5 hours
+Estimated remaining: 11.2 minutes
+Average time per case: 21.0 seconds
+Correct predictions: 1158/1285 (90.1%)
+Vulnerability detection rate: 179/193 (92.7%)[0m
+
+[36mProgress: 1290/1317 cases processed
+Time elapsed: 7.5 hours
+Estimated remaining: 9.4 minutes
+Average time per case: 21.0 seconds
+Correct predictions: 1162/1290 (90.1%)
+Vulnerability detection rate: 179/193 (92.7%)[0m
+
+[36mProgress: 1295/1317 cases processed
+Time elapsed: 7.5 hours
+Estimated remaining: 7.7 minutes
+Average time per case: 21.0 seconds
+Correct predictions: 1167/1295 (90.1%)
+Vulnerability detection rate: 180/194 (92.8%)[0m
+
+[36mProgress: 1300/1317 cases processed
+Time elapsed: 7.6 hours
+Estimated remaining: 5.9 minutes
+Average time per case: 20.9 seconds
+Correct predictions: 1172/1300 (90.2%)
+Vulnerability detection rate: 180/194 (92.8%)[0m
+
+[36mProgress: 1305/1317 cases processed
+Time elapsed: 7.6 hours
+Estimated remaining: 4.2 minutes
+Average time per case: 20.9 seconds
+Correct predictions: 1176/1305 (90.1%)
+Vulnerability detection rate: 181/195 (92.8%)[0m
+
+[36mProgress: 1310/1317 cases processed
+Time elapsed: 7.6 hours
+Estimated remaining: 2.4 minutes
+Average time per case: 21.0 seconds
+Correct predictions: 1179/1310 (90.0%)
+Vulnerability detection rate: 182/196 (92.9%)[0m
+
+[36mProgress: 1315/1317 cases processed
+Time elapsed: 7.7 hours
+Estimated remaining: 41.9 seconds
+Average time per case: 21.0 seconds
+Correct predictions: 1183/1315 (90.0%)
+Vulnerability detection rate: 182/197 (92.4%)[0m
+
+[33mModel: qwen2.5:32b
+[36mProcessed: 1317/1317 cases
+Total execution time: 7.7 hours
+Average time per case: 21.0 seconds
+[32mCorrectly classified: 1185/1317
+
+[36mConfusion Matrix:
+[1m[[1003  117]
+ [  15  182]]
+
+[32mAccuracy: 0.8998
+Precision: 0.6087
+Recall: 0.9239
+F1-score: 0.7339[0m
+[36mAUC-ROC: 0.9097
+AUC-PR: 0.7720[0m
+
+[36mClassification Report:
+[1m              precision    recall  f1-score   support
+
+           0       0.99      0.90      0.94      1120
+           1       0.61      0.92      0.73       197
+
+    accuracy                           0.90      1317
+   macro avg       0.80      0.91      0.84      1317
+weighted avg       0.93      0.90      0.91      1317
+
+
+[33mEvaluation Complete[0m
+
+[36mModel Comparison:[0m
+[1m         Model  Accuracy  Precision    Recall  ...    Total_Time  Average_Time_Per_Case                               All_Prediction_Times                   Timestamp
+0  qwen2.5:32b  0.899772   0.608696  0.923858  ...  27619.673908              20.969647  [27.04870367050171, 15.979819059371948, 19.141...  2025-06-04T19:08:59.258903
+
+[1 rows x 17 columns]
+
+[33mVulnerability Detection Performance:[0m
+
+[36mqwen2.5:32b:
+Vulnerability Detection Rate: 0.9239
+False Positive Rate: 0.3913
+False Negative Rate: 0.0761[0m

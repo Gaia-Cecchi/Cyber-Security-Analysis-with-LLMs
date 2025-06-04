@@ -1,0 +1,42 @@
+Model: gemma3:4b
+Processed: 1317/1317 cases
+Total execution time: 5.0 hours
+Average time per case: 13.6 seconds
+Correctly classified: 1207/1317
+
+Confusion Matrix:
+[[1014  106]
+ [   4  193]]
+
+Accuracy: 0.9165
+Precision: 0.6455
+Recall: 0.9797
+F1-score: 0.7782
+AUC-ROC: 0.9425
+AUC-PR: 0.8141
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.91      0.95      1120
+           1       0.65      0.98      0.78       197
+
+    accuracy                           0.92      1317
+   macro avg       0.82      0.94      0.86      1317
+weighted avg       0.94      0.92      0.92      1317
+
+
+Evaluation Complete
+
+Model Comparison:
+       Model  ...                   Timestamp
+0  gemma3:4b  ...  2025-06-04T00:26:39.920038
+
+[1 rows x 17 columns]
+
+Vulnerability Detection Performance:
+
+gemma3:4b:
+Vulnerability Detection Rate: 0.9797
+False Positive Rate: 0.3545
+False Negative Rate: 0.0203
